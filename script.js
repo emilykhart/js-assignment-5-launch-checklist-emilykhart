@@ -15,6 +15,7 @@ window.addEventListener("load", function() {
     //    console.log(listedPlanets);
        luckyPlanet = pickPlanet(listedPlanets);
        console.log(luckyPlanet);
+       
     const name = luckyPlanet.name;
     const diameter = luckyPlanet.diameter;
     const star = luckyPlanet.star;
